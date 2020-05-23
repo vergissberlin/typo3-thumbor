@@ -1,0 +1,39 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "TYPO3 CMS extension with fluid image view helpers to use thumbor as cropping service. It speeds up your thumbnail generation and adds some AI features like face recognition. \nTo use it, you have to start the service separately.",
+        "emConf": {
+            "category": "fe",
+            "custom_category": "",
+            "dependsOn": "typo3 => 9.5.0-9.5.99\n",
+            "disableLocalization": true,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "9.5.0-9.5.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "thumbor",
+        "name": "thumbor",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "",
+                "email": "vergissberlin@googlemail.com",
+                "name": "André Lademann",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [],
+        "vendorName": "Vergissberlin"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2020-05-22 08:44",
+        "extension_builder_version": "9.10.2",
+        "be_user": " (1)"
+    }
+}
