@@ -11,22 +11,22 @@
  ***************************************************************/
 
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'thumbor',
+    'title'       => 'thumbor',
     'description' => 'TYPO3 CMS extension with fluid image view helpers to use thumbor as cropping service. It speeds up your thumbnail generation and adds some AI features like face recognition. 
 To use it, you have to start the service separately.',
-    'category' => 'fe',
-    'author' => 'André Lademann',
-    'author_email' => 'vergissberlin@googlemail.com',
-    'state' => 'alpha',
-    'uploadfolder' => 0,
-    'createDirs' => '',
+    'category'         => 'fe',
+    'author'           => 'André Lademann',
+    'author_email'     => 'vergissberlin@googlemail.com',
+    'state'            => 'alpha',
+    'uploadfolder'     => 0,
+    'createDirs'       => '',
     'clearCacheOnLoad' => 0,
-    'version' => '1.0.0',
-    'constraints' => [
+    'version'          => '1.0.0',
+    'constraints'      => [
         'depends' => [
             'typo3' => '9.5.0-10.99.99',
         ],
         'conflicts' => [],
-        'suggests' => [],
+        'suggests'  => [],
     ],
 ];
