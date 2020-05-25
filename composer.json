@@ -27,7 +27,7 @@
         }
     },
     "replace": {
-        "vergissberlin/thumbor": "self.version",
-        "typo3-ter/thumbor": "self.version"
+        "vergissberlin/typo3-thumbor": "self.version",
+        "typo3-ter/typo3-thumbor": "self.version"
     }
 }
