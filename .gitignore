@@ -1,5 +1,6 @@
 /*
 
+!/Classes
 !/Configuration
 !/Documentation
 !/LICENSE.md
@@ -7,6 +8,7 @@
 !/Resources
 !/.gitignore
 !/composer.json
+!/ext_conf_template.txt
 !/ext_emconf.php
 !/ext_tables.php
 !/ExtensionBuilder.json

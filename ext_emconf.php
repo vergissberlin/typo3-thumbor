@@ -24,7 +24,7 @@ To use it, you have to start the service separately.',
     'version' => '1.0.0',
     'constraints' => [
         'depends' => [
-            'typo3' => '9.5.0-9.5.99',
+            'typo3' => '9.5.0-10.99.99',
         ],
         'conflicts' => [],
         'suggests' => [],

@@ -1,0 +1,4 @@
+# cat=Thumbor Service; type=string; label=URL: The URL of the thumbor service
+SERVICE_URL =
+# cat=Thumbor Service; type=string; label=Thumbor: The secret key to avoid external usage of the service.
+SECRET_KEY =
