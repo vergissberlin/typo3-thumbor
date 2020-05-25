@@ -13,6 +13,9 @@
         "typo3/cms-core": ">=9.5 <10.99.99",
         "99designs/phumbor": "^1.2"
     },
+    "require-dev": {
+        "nimut/testing-framework": "^5.0.3"
+    },
     "autoload": {
         "psr-4": {
             "Vergissberlin\\Thumbor\\": "Classes"
