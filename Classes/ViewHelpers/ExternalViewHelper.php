@@ -12,12 +12,15 @@ use TYPO3Fluid\Fluid\Core\ViewHelper\AbstractTagBasedViewHelper;
  */
 class ExternalViewHelper extends AbstractTagBasedViewHelper
 {
+    /** @var string The tag name */
     protected $tagName = 'img';
 
     /**
+     * Initialize all arguments of the ViewHelper
+     * 
      * @return void
      */
-    public function initializeArguments()
+    public function initializeArguments(): void
     {
         parent::initializeArguments();
         $this->registerUniversalTagAttributes();
