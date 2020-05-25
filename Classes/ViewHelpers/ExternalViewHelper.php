@@ -16,8 +16,8 @@ class ExternalViewHelper extends AbstractTagBasedViewHelper
     protected $tagName = 'img';
 
     /**
-     * Initialize all arguments of the ViewHelper
-     * 
+     * Initialize all arguments of the ViewHelper.
+     *
      * @return void
      */
     public function initializeArguments(): void
