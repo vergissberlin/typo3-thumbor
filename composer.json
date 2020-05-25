@@ -3,8 +3,13 @@
 	"type": "typo3-cms-extension",
 	"description": "TYPO3 CMS extension with fluid image view helpers to use thumbor as cropping service. It speeds up your thumbnail generation and adds some AI features like face recognition. \nTo use it, you have to start the service separately.",
 	"homepage": "https://github.com/vergissberlin/typo3-thumbor",
-	"keywords": ["typo3", "extension","thumbnails","service"],
-	"license": "MIT",
+	"keywords": [
+		"typo3",
+		"extension",
+		"thumbnails",
+		"service"
+	],
+	"license": "GPL-2.0-or-later",
 	"authors": [
 		{
 			"name": "André Lademann",
@@ -17,11 +22,11 @@
 		"99designs/phumbor": "^1.2"
 	},
 	"require-dev": {
-		"nimut/testing-framework": "^5.0.3"
+		"typo3/testing-framework": "^6.3"
 	},
 	"autoload": {
 		"psr-4": {
-			"Vergissberlin\\Thumbor\\": "Classes/"
+			"Vergissberlin\\Thumbor\\": "Classes"
 		}
 	},
 	"autoload-dev": {
