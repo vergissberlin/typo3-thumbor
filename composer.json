@@ -12,7 +12,8 @@
 		}
 	],
 	"require": {
-		"typo3/cms-core": ">=9.5 <10.99.99",
+		"typo3/cms-core": "^9.5 || ^10.3",
+		"typo3/cms-frontend": "^9.5 || ^10.3",
 		"99designs/phumbor": "^1.2"
 	},
 	"require-dev": {
