@@ -22,7 +22,7 @@
 		"99designs/phumbor": "^1.2"
 	},
 	"require-dev": {
-		"typo3/testing-framework": "^6.3"
+		"typo3/testing-framework": "^6.3 || ^8.0"
 	},
 	"autoload": {
 		"psr-4": {
